@@ -1,18 +1,24 @@
 <?php
-
+// Paramètres de connexion
 $host = 'localhost';
-$db   = 'resavelo';
-$user = 'root';   // XAMPP par défaut
-$pass = '';       // XAMPP par défaut
+$db   = 'resavelo'; // nom de la base importée
+$user = 'root';     // utilisateur MySQL par défaut
+$pass = '';        
 $charset = 'utf8mb4';
 
+// DSN PDO
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
 
+// Options PDO
+$options = [
+    PDO::ATTR_ERRMODE            => PDO::ERRMODE_EXCEPTION, // erreurs PDO en exception
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,       // fetch sous forme de tableau associatif
+    PDO::ATTR_EMULATE_PREPARES   => false,
+];
+
 try {
-    $pdo = new PDO($dsn, $user, $pass, [
-        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
-    ]);
+    $pdo = new PDO($dsn, $user, $pass, $options);
+    
 } catch (PDOException $e) {
-    die("Erreur de connexion à la base de données : " . $e->getMessage());
+    echo "Erreur de connexion : " . $e->getMessage();
 }

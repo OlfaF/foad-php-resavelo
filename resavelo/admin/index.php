@@ -1,4 +1,2 @@
 <?php
-require_once '../config/db_connect.php';
-
-echo "Connexion PDO OK ✅";
+require_once __DIR__ . '/../config/db_connect.php';
