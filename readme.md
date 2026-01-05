@@ -126,6 +126,14 @@ Il y a aucune notions de MVC avec controller, vue (template) , libre à vous d'e
 
 - L'utilisation de git est obligatoire pour votre projet , donc faite souvent des commits avec des intitulés qui ont un sens.
 
+### README
+
+Vous devez obligatoirement avoir un readme qui explique ce que fait votre projet et comment le mettre en place.
+
+### LLM
+
+Il est evidement que je déconseil d'utiliser tout LLM pour faire ce travail sachant que qu'on a deja tout ça ensemble.
+
 ### LIVRABLE
 
 - Pour 17h00 ou avant , envoyer par MP sur discord l'url de votre de dépot github (ou autre service) , apres 17h00 je ne regarderai pas votre travail.
