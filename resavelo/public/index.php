@@ -5,6 +5,11 @@ require_once __DIR__ . '/../config/db_connect.php';
 // Fonctions pour gérer les vélos
 require_once __DIR__ . '/../includes/functions_velos.php';
 
+
+// Inclusion du header commun (navigation, logo, etc.)
+include_once __DIR__ . '/../includes/partials/header_public.php';
+
+
 // Récupérer tous les vélos
 $velos = getAllVelos($pdo);
 ?>

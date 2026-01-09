@@ -1,0 +1,132 @@
+/* ===============================
+   STYLE PUBLIC - RESAVELO
+   =============================== */
+
+/* ===== BODY ===== */
+body {
+    font-family: Arial, sans-serif; /* Police simple et lisible */
+    background-color: #f4f4f4;      /* Couleur de fond claire */
+    margin: 0;                       /* Supprime marges par défaut */
+    padding: 20px;                   /* Petit padding autour du contenu */
+    color: #333;                     /* Couleur du texte */
+}
+
+/* ===== TITRES ===== */
+h1, h2, h3 {
+    color: #007BFF; /* Bleu agréable */
+}
+
+/* ===== LIENS ===== */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== HEADER / NAV ===== */
+header {
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+header nav a {
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+/* ===== TABLEAUX ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;  /* Supprime doubles bordures */
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+/* ===== BOUTONS ===== */
+button, input[type="submit"], a.button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+button:hover, input[type="submit"]:hover, a.button:hover {
+    background-color: #0056b3;
+}
+
+/* ===== FORMULAIRES ===== */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"], input[type="date"], select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* ===== VÉLOS - CARTE ===== */
+.card-velo {
+    background-color: white;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card-velo img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card-velo h3 {
+    margin-top: 10px;
+}
+
+.card-velo p {
+    margin: 5px 0;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-top: 30px;
+}
+
+/* ===== MESSAGES ===== */
+.success {
+    color: green;
+}
+
+.error {
+    color: red;
+}

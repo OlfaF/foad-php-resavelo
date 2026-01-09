@@ -1,0 +1,95 @@
+/* ===========================
+   STYLE ADMIN - RESAVELO
+   =========================== */
+
+/* Style général de la page admin */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Titre principal */
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* ===========================
+   DASHBOARD
+   =========================== */
+
+/* Conteneur des statistiques */
+.dashboard {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Carte statistique */
+.card {
+    background: white;
+    border-radius: 6px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Valeur numérique */
+.card h2 {
+    color: #007BFF;
+    margin: 0;
+}
+
+/* Texte descriptif */
+.card p {
+    margin: 10px 0 0;
+    color: #666;
+}
+
+/* ===========================
+   NAVIGATION ADMIN
+   =========================== */
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===========================
+   TABLES ADMIN
+   =========================== */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
